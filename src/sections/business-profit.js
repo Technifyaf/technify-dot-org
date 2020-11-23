@@ -9,19 +9,31 @@ import DrawingArrow from 'assets/drawing-arrow.svg';
 
 const data = {
   title:
-    'We help you to boost your business profitable with our talent marketer',
+    'Investment readiness  ',
   description:
-    'Get your tests delivered at let home collect sample from the victory of the managements that supplies best design system guidelines ever.',
+    'We help founders get started and get seed investment ready.',
   btnName: 'Explore Details',
   btnURL: '#',
   points: [
     {
       icon: <IoIosCheckmarkCircle />,
-      text: 'Unlimited design possibility',
+      text: 'Research support',
     },
     {
       icon: <IoIosCheckmarkCircle />,
-      text: 'Completely responsive features',
+      text: 'Prototyping support',
+    },
+    {
+      icon: <IoIosCheckmarkCircle />,
+      text: 'Minimum viable product development support',
+    },
+    {
+      icon: <IoIosCheckmarkCircle />,
+      text: 'Pilot testing support',
+    },
+    {
+      icon: <IoIosCheckmarkCircle />,
+      text: 'Go to market support',
     },
   ],
 };

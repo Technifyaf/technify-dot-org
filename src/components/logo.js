@@ -1,10 +1,10 @@
 /** @jsx jsx */
-import { jsx, Image } from 'theme-ui';
+import { jsx, Image,Text } from 'theme-ui';
 import { Link } from 'components/link';
 
 export default function Logo({ src, ...rest }) {
   return (
-    <Link
+   /* <Link
       path="/"
       sx={{
         variant: 'links.logo',
@@ -14,7 +14,15 @@ export default function Logo({ src, ...rest }) {
       }}
       {...rest}
     >
-      <Image src={src} alt="startup landing logo" />
+      
     </Link>
+    */
+    <Text as="p" variant="heroSecondary">
+    Technify Foundation
+    </Text>
   );
+
+  
+
+
 }

@@ -6,21 +6,21 @@ import SectionHeader from 'components/section-header';
 const data = [
   {
     id: 1,
-    title: 'Connect with support',
+    title: 'Join the community',
     text:
-      'Our homes are designed to be move-in ready. Think furnished common areas, super fast wifi, and flexible leases.',
+      'Join as a learner, entrepreneur , trainer, or volunteer.',
   },
   {
     id: 2,
-    title: 'Explain you business idea',
+    title: 'Earn your stripes',
     text:
-      'Our homes are designed to be move-in ready. Think furnished common areas, super fast wifi, and flexible leases.',
+      'Aquire new skills, gain work experience and expand your networks.   ',
   },
   {
     id: 3,
-    title: 'Be partner & earn money',
+    title: 'Access opportunities',
     text:
-      'Our homes are designed to be move-in ready. Think furnished common areas, super fast wifi, and flexible leases.',
+      'Once your stipes are earned, we set you up for opportunities.',
   },
 ];
 
@@ -30,7 +30,7 @@ export default function WorkFlow() {
       <Container>
         <SectionHeader
           title="Let’s meet how its work"
-          description="Focus only on the meaning, we take care of the design. As soon as the meeting end you can export in one click into your preferred format."
+          description="There may not be enough jobs for everyone , but there is a lot work on self to be done. Join us and work."
         />
 
         <Grid sx={styles.grid}>

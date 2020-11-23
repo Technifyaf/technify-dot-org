@@ -2,15 +2,44 @@
 import { jsx, Container, Box } from 'theme-ui';
 import TextFeature from 'components/text-feature';
 import Image from 'components/image';
+import { IoIosCheckmarkCircle } from 'react-icons/io';
+
 
 import KnowledgeThumb from 'assets/images/knowledge-thumb.png';
 
 const data = {
-  title: 'we are committed to using fact-based knowledge to our customers',
+  title: 'Skills development',
   description:
     'Get your tests delivered at let home collect sample from the victory of the managements that supplies best design system guidelines ever. Get your tests delivered at let home collect sample.',
   btnName: 'Explore Details',
   btnURL: '#',
+  points: [
+    {
+      icon: <IoIosCheckmarkCircle />,
+      text: 'UI/UX research and design',
+    },
+    {
+      icon: <IoIosCheckmarkCircle />,
+      text: 'Front end development',
+    },
+    {
+      icon: <IoIosCheckmarkCircle />,
+      text: 'Back end development',
+    },
+   
+    {
+      icon: <IoIosCheckmarkCircle />,
+      text: 'Data science',
+    },
+    {
+      icon: <IoIosCheckmarkCircle />,
+      text: 'Machine Learning',
+    },
+    {
+      icon: <IoIosCheckmarkCircle />,
+      text: 'Online Sales & Marketing',
+    },
+  ],
 };
 
 export default function Knowledge() {
@@ -22,6 +51,7 @@ export default function Knowledge() {
             title={data.title}
             description={data.description}
             btnName={data.btnName}
+            points={data.points}
             btnURL={data.btnURL}
           />
         </Box>
