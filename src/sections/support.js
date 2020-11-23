@@ -17,7 +17,7 @@ const data = {
   points: [
     {
       icon: <IoIosCheckmarkCircle />,
-      text: 'Research support',
+      text: 'Mandela Washington fellow',
     },
     {
       icon: <IoIosCheckmarkCircle />,
