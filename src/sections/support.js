@@ -4,7 +4,7 @@ import TextFeature from 'components/text-feature';
 import Image from 'components/image';
 import { IoIosCheckmarkCircle } from 'react-icons/io';
 
-import ProfitThumb from 'assets/images/trer.jpeg';
+import ProfitThumb from 'assets/images/Trer.jpeg';
 import DrawingArrow from 'assets/drawing-arrow.svg';
 
 const data = {
